@@ -1,0 +1,15 @@
+@import "./1-abstracts/palette";
+
+// 3 - Base
+@import "./3-base/fonts";
+@import "./3-base/reset";
+@import "./3-base/typography";
+
+// 4 - Layout
+@import "./4-layout/footer";
+@import "./4-layout/other";
+
+@import "./5-components/copyRights";
+@import "./5-components/topNavBar";
+
+@import "./7-utils/utils";

@@ -1,0 +1,21 @@
+.l-site {
+  display: flex;
+  justify-content: center;
+
+  background-color: $col-primary-G;
+  background-image: url("../assets/images/gray-vegetable-mix.png");
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: 100%;
+}
+
+.l-constrained {
+  width: 100%;
+  max-width: 1260px;
+
+  height: 1000px;
+}
+
+.l-site .l-constrained {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}

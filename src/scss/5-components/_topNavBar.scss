@@ -1,0 +1,18 @@
+.c-topNavBar {
+  font-size: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 45px;
+
+  border-bottom: 1px solid rgba($col-primary-A, 0.1);
+  background-color: $col-primary-H;
+
+  &_group {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 35px;
+  }
+}
